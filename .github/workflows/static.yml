@@ -5,12 +5,7 @@ void main() {
 }
 
 class MariaApp extends StatelessWidget {
-  const MariaApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
+  const MariaApp({super.key})
       title: 'MARÍA: Soberanía Real',
       theme: ThemeData(
         brightness: Brightness.dark,
